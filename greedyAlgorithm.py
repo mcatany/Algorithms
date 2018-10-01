@@ -1,4 +1,5 @@
-# Greedy algorithm
+# Greedy algorithm (Theory from Codility)
+# Uses python3
 
 def greedyCoinChanging(M,k):
 	n = len(M)
@@ -9,4 +10,6 @@ def greedyCoinChanging(M,k):
 		k %= M[i]
 	return result
 	
-greedyCoinChanging([1,3,4],6)
+# Example of usage
+if __name__ == "__main__":		
+	greedyCoinChanging([1,3,4],6)

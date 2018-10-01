@@ -1,5 +1,5 @@
-#Fibonacci not recursive
-#[1,1,3,5,8,13,21,34,55,...]
+# Fibonacci not recursive
+# Uses python3
 
 def fibonacci(n):
 	fib = 0
@@ -13,5 +13,8 @@ def fibonacci(n):
 		else:
 			fib = 1
 	return fib	
-n = int(input("Enter a value: "))	
-print(fibonacci(n))
+	
+# Example of usage
+if __name__ == "__main__":		
+	n = int(input("Enter a value: "))	
+	print(fibonacci(n))

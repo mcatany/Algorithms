@@ -1,4 +1,5 @@
 # Fibonacci
+# Uses python3
 
 number = int(input("Enter fibonacci number: "))
 
@@ -15,5 +16,8 @@ for i in range(1,number+1):
 		ant1 = ant2
 		ant2 = fib
 	result.append(fib)
-print(result[number-1])
-print(result[number-1]%10)
+	
+# Example of usage
+if __name__ == "__main__":		
+	print(result[number-1])
+	print(result[number-1]%10)

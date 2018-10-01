@@ -1,4 +1,5 @@
-# Greatest common divisor
+# Greatest common divisor (Theory from Codility)
+# Uses python3
 
 number = input("Enter GCD numbers: ")
 
@@ -11,4 +12,7 @@ def euclidianGCD(a,b):
 		return b
 	else:
 		return euclidianGCD(b,a%b)
-print(euclidianGCD(numbers[0],numbers[1]))
+		
+# Example of usage
+if __name__ == "__main__":			
+	print(euclidianGCD(numbers[0],numbers[1]))

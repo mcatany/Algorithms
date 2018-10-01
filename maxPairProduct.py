@@ -1,4 +1,6 @@
+# maxPairProduct (Exercise from Codility)
 # Uses python3
+
 numbers = input("Enter numbers: ")
 numbers = numbers.split()
 

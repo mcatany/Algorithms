@@ -1,6 +1,6 @@
-# Leader Codility
+# Leader (Theory from Codility)
+# Uses python3
 
-A =[6,8,4,6,8,6,6]
 def slowLeader(A): # O(n^2)
 	n = len(A)
 	leader = -1
@@ -56,7 +56,10 @@ def goldenLeader(A): # O(n)
 	if count > n//2:
 		leader = candidate
 	return leader	
-		
-print(slowLeader(A))	
-print(fastLeader(A))
-print(goldenLeader(A))
+
+# Example of usage
+if __name__ == "__main__":	
+	A =[6,8,4,6,8,6,6]	
+	print(slowLeader(A))	
+	print(fastLeader(A))
+	print(goldenLeader(A))

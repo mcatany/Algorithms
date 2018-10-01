@@ -1,17 +1,7 @@
-# Caterpillar
+# Caterpillar (Theory from Codility)
+# Uses python3
 
-def caterpillarMethodMiquel(A,s):
-	n = len(A)
-	front = 0
-	tail = 0
-	sum = A[0]
-	while sum != s:
-		front += 1
-		sum += A[front]
-		if sum > s:
-			sum -= A[tail]
-			tail +=1
-			
+# Caterpillar function			
 def caterpillarMethod(A, s):
 	n = len(A)
 	print(A)
@@ -26,7 +16,9 @@ def caterpillarMethod(A, s):
 			return True
 		total -= A[back]
 	return False	
-	
-A = [6, 2, 7, 4, 1, 3, 6]
 
-caterpillarMethod(A,12)
+
+# Example of usage
+if __name__ == "__main__":		
+	A = [6, 2, 7, 4, 1, 3, 6]
+	caterpillarMethod(A,12)
