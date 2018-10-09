@@ -1,4 +1,5 @@
 # Stack Codility
+# Uses python3
 
 stack = [0] * N
 size = 0

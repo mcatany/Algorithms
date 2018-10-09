@@ -1,7 +1,8 @@
 # Sort Codility
+# Uses python3
 
-# Selection Sort
 
+# Selection ort
 def selectionSort(A):
     n = len(A)
 
@@ -14,7 +15,7 @@ def selectionSort(A):
     return A
 
 
-
+# Counting sort
 def countingSort(A):
     n = len(A)
     C = [0] * (max(A)+1)
@@ -26,6 +27,7 @@ def countingSort(A):
             P.append(i)
     return P
 
+# Insertion sort
 def insertionSort(A):
     n = len(A)
     for i in range(1,len(A)):
@@ -40,7 +42,7 @@ def insertionSort(A):
         
     
             
-    
-print(selectionSort([2,5,3,7,5]))
-print(countingSort([2,5,3,7,5]))
-print(insertionSort([2,5,3,7,5]))
+if __name__ == "__main__":	   
+	print(selectionSort([2,5,3,7,5]))
+	print(countingSort([2,5,3,7,5]))
+	print(insertionSort([2,5,3,7,5]))

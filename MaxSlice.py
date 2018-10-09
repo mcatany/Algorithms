@@ -1,4 +1,5 @@
 # Maximum Slice Problem Codility
+# Uses python3
 
 A = [5, -7, 3, 5, -2, 4, -1] 
 

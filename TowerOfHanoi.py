@@ -1,4 +1,5 @@
 # Tower of Hanoi
+# Uses python3
 
 # Recursive function for solution
 def moveTower(height, fromPole, toPole, withPole):

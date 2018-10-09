@@ -1,3 +1,6 @@
+# Serpinsky gasket
+# Uses python3
+
 from turtle import *
 color('red')
 
@@ -18,4 +21,5 @@ def draw_gasket(dim):
 		pd()
 		goto(200,200)
 
-draw_gasket(dim)
+if __name__ == "__main__":			
+	draw_gasket(dim)

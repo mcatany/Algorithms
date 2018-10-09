@@ -1,6 +1,5 @@
 # Recursive Palindrome
-
-inp = input("Enter a word: ")
+# Uses python3
 
 def recursivePalindrome(word):
 	if len(word)==1:
@@ -14,5 +13,7 @@ def recursivePalindrome(word):
 	else:
 		print("Not a palindrome")
 		return 1
-		
-recursivePalindrome(inp)		
+
+if __name__ == "__main__":	
+	inp = input("Enter a word: ")		
+	recursivePalindrome(inp)		

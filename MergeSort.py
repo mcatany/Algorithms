@@ -1,4 +1,5 @@
 # Merge sort
+# Uses python3
 
 def mergeSort(alist):
     print("Splitting ",alist)
@@ -33,6 +34,7 @@ def mergeSort(alist):
             k=k+1
     print("Merging ",alist)
 
-alist = [54,26,93,17,77,31,44,55,20]
-mergeSort(alist)
-print(alist)
+if __name__ == "__main__":	
+	alist = [54,26,93,17,77,31,44,55,20]
+	mergeSort(alist)
+	print(alist)
